@@ -69,7 +69,7 @@ class Concept
         $promise->wait();
     }
 
-    public function getSecretKey()
+    public function getSecretKey(): string
     {
         $this->dataSource->loadSecretKey();
     }
